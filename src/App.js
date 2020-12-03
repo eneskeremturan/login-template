@@ -9,8 +9,8 @@ import SignUp from "./screens/SignUp";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+      <div className="App mt-5">
+        {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
             <Link className="navbar-brand" to={"/sign-in"}>
               positronX.io
@@ -30,7 +30,7 @@ function App() {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
 
         <div className="auth-wrapper">
           <div className="auth-inner">
